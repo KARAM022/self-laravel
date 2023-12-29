@@ -6,8 +6,8 @@ THis is some exercises to learn laravel
 
 ### TP1
 
-## 9rayti f click channel
-# video : <a href="https://youtu.be/9dGmUvg9QQ0?si=RmUvojuobIsqC3R9">
+### 9rayti f click channel
+video : <a href="https://youtu.be/9dGmUvg9QQ0?si=RmUvojuobIsqC3R9"></a>
 
 
 
