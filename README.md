@@ -29,7 +29,9 @@ public function etudiant()
 | Nom et prenom | karam ouafik |
 | :-----: | :---: |
 | poste | stagiaire |
-| modules | * developper en frantend <br> * developper en backend <br> *Gestion des donnees |
+| modules | * developper en frantend <br> * developper en backend <br> * gestion des donnees |
+
+
 
 
 
