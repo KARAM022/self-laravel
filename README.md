@@ -23,8 +23,8 @@ public function etudiant()
     return view('affichage', $data);
 }
 ```
-1. Definir une route correspandante
-1. Créer une vue 'affichage' qui permet d'afficher les information comme suit :
+2. Definir une route correspandante
+3. Créer une vue 'affichage' qui permet d'afficher les information comme suit :
 
 | Nom et prenom | karam ouafik |
 | :-----: | :---: |
