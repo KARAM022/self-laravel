@@ -67,11 +67,11 @@ THis is some exercises to learn laravel
         hello Mr Karam
     `
     `
-        this is a list of some programming language :
-            * php
-            * js
-            * c
-            * python
+    this is a list of some programming language :
+        * php
+        * js
+        * c
+        * python
     `
 
 
