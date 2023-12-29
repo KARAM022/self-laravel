@@ -4,7 +4,68 @@ THis is some exercises to learn laravel
 <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg">
 
 
-### TP1 : blade
+### TP1 : routing
+> created by prof ***Ibn Batouta***
+
+1. Créer 2 vue *page1* et *page2*
+1. Definir 2 route correspandante:<br>
+    le 1er : returne la vue **page1** lorsque l'url est "(nom de domaine)/page1"<br>
+    le 2eme : returne la vue **page2** lorsque l'url est "(nom de domaine)/page2"
+
+
+
+
+
+
+
+### TP2 : controllers
+> created by prof ***Ibn Batouta***
+
+1. Créer un controller 'home'
+2. Définir la méthode 'salam':<br>
+    Returne une vue **salam** contient:
+    ```
+        salam {{$nom}}
+    ```
+    lorsque l'url est "(nom de domaine)/". `$nom` doit être déclaré dans la méthode 'salam'.<br>
+3. Définir la méthode 'hello':<br>
+    Returne une vue **hello** contient:
+    ```
+        hello {{$nom}}
+    ```
+    lorsque l'url est "(nom de domaine)/hello/(nom)". `$nom` dans la vue hello doit être le même nom dans l'url.
+    le 2eme : returne la vue **page2** lorsque l'url est "(nom de domaine)/page2"
+
+
+
+
+
+
+
+### TP3 : controllers
+> created by prof ***Ibn Batouta***
+
+1. Créer un controller 'home'
+2. Définir la méthode 'salam':<br>
+    Returne une vue **salam** contient:
+    ```
+        salam {{$nom}}
+    ```
+    lorsque l'url est "(nom de domaine)/". `$nom` doit être déclaré dans la méthode 'salam'.<br>
+3. Définir la méthode 'hello':<br>
+    Returne une vue **hello** contient:
+    ```
+        hello {{$nom}}
+    ```
+    lorsque l'url est "(nom de domaine)/hello/(nom)". `$nom` dans la vue hello doit être le même nom dans l'url.
+
+
+
+
+
+
+
+### TP4 : blade
 
 > 9rayti f click channel
 > 
@@ -36,7 +97,7 @@ public function etudiant()
 
 
 
-### TP2 : blade 
+### TP5 : blade 
 
 > 9rayti f click channel
 > 
@@ -53,33 +114,3 @@ public function etudiant()
 
 
 
-### TP3 : routing
-> created by prof ***Ibn Batouta***
-
-1. Créer 2 vue *page1* et *page2*
-1. Definir 2 route correspandante:<br>
-    le 1er : returne la vue **page1** lorsque l'url est "(nom de domaine)/page1"<br>
-    le 2eme : returne la vue **page2** lorsque l'url est "(nom de domaine)/page2"
-
-
-
-
-
-
-
-### TP4 : controllers
-> created by prof ***Ibn Batouta***
-
-1. Créer un controller 'home'
-2. Définir la méthode 'salam':<br>
-    Returne une vue **salam** contient:
-    ```
-        salam {{$nom}}
-    ```
-    lorsque l'url est "(nom de domaine)/". `$nom` doit être déclaré dans la méthode 'salam'.<br>
-3. Définir la méthode 'hello':<br>
-    Returne une vue **hello** contient:
-    ```
-        hello {{$nom}}
-    ```
-    lorsque l'url est "(nom de domaine)/hello/(nom)". `$nom` dans la vue hello doit être le même nom dans l'url.
