@@ -14,7 +14,7 @@ Here are some exercises to learn laravel
 
 
 
-
+<hr>
 
 
 
