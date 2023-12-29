@@ -76,4 +76,10 @@ public function etudiant()
     ```
         salam {{$nom}}
     ```
-    lorsque l'url est "(nom de domaine)/". `$nom` doit être déclaré dans la méthode 'salam'.
+    lorsque l'url est "(nom de domaine)/". `$nom` doit être déclaré dans la méthode 'salam'.<br>
+3. Définir la méthode 'hello':<br>
+    Returne une vue **hello** contient:
+    ```
+        hello {{$nom}}
+    ```
+    lorsque l'url est "(nom de domaine)/hello/(nom)". `$nom` dans la vue hello doit être le même nom dans l'url.
