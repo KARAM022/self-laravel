@@ -55,10 +55,9 @@ public function etudiant()
 
 ### TP3 : routing
 > created by prof ***Ibn Batouta***
-<br>
 
 1. créer 2 vue *page1* et *page2*
-1. definir 2 route correspandante:
+1. definir 2 route correspandante:<br>
     le 1er : returne la vue *page1* lorsque l'url est "(nom de domaine/page1)"<br>
     le 2eme : returne la vue *page2* lorsque l'url est "(nom de domaine/page2)"
 
