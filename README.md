@@ -65,7 +65,6 @@ THis is some exercises to learn laravel
 1. Créer une vue 'blads' qui permet d'afficher les information comme suit :
     `
         hello Mr Karam
-
         this is a list of some programming language :
             * php
             * js
