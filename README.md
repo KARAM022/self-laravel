@@ -27,9 +27,7 @@ public function etudiant()
 1. Créer une vue 'affichage' qui permet d'afficher les information comme suit :
 
 Nom et prenom | karam ouafik 
---- | --- 
 poste | stagiaire
---- | --- 
 modules | * developper en frantend 
 
 
