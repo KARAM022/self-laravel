@@ -43,8 +43,8 @@ public function etudiant()
 > video : <a href="https://youtu.be/X63WfDdYh84?si=Ac-WBUtGX1HfaL7w">YouTube video</a>
 
 1. créer une vue qui contient unr liste déroulante remplie par les nombres de 0 à 9
-1. remplir une deuxieme liste par les nombres de 1 à 1000. proposer deux solutions:
-    Solution 1 : avec une boucle
+1. remplir une deuxieme liste par les nombres de 1 à 1000. proposer deux solutions:<br>
+    Solution 1 : avec une boucle<br>
     Solution 2 : avec une boucle et une condition
 
 
