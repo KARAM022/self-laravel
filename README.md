@@ -25,11 +25,10 @@ public function etudiant()
 ```
 1. Definir une route correspandante
 1. Créer une vue 'affichage' qui permet d'afficher les information comme suit :
-```
+
 <table bordure="1px">
     <tr>hyyyyyyy</tr>
 </tabel>
-```
 
 
 
