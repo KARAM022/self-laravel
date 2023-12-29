@@ -42,22 +42,28 @@ THis is some exercises to learn laravel
 
 
 
-### TP3 : controllers
-> created by prof ***Ibn Batouta***
+### TP3 : blade
+> created by ***Jamaoui Mouad channel***
+> 
+> video : <a href="https://youtu.be/w6V8DylTKtU?si=Zw3xsm81s-PDjTfJ">YouTube video</a>
 
-1. Créer un controller 'home'
-2. Définir la méthode 'salam':<br>
-    Returne une vue **salam** contient:
+1. Créer un controller 'home'. Définir la méthode blads suivante :
     ```
-        salam {{$nom}}
+    public function blads(){
+        return view("blads", [
+            'nom' => 'Karam',
+            'languages' => [
+                "php",
+                "js",
+                "c",
+                "python"
+            ]
+        ]);
+    }
     ```
-    lorsque l'url est "(nom de domaine)/". `$nom` doit être déclaré dans la méthode 'salam'.<br>
-3. Définir la méthode 'hello':<br>
-    Returne une vue **hello** contient:
-    ```
-        hello {{$nom}}
-    ```
-    lorsque l'url est "(nom de domaine)/hello/(nom)". `$nom` dans la vue hello doit être le même nom dans l'url.
+1. Definir une route correspandante
+1. Créer une vue 'blads' qui permet d'afficher les information comme suit :
+
 
 
 
@@ -67,7 +73,7 @@ THis is some exercises to learn laravel
 
 ### TP4 : blade
 
-> 9rayti f click channel
+> created by ***9rayti f click channel***
 > 
 > video : <a href="https://youtu.be/9dGmUvg9QQ0?si=RmUvojuobIsqC3R9">YouTube video</a>
 
@@ -99,7 +105,7 @@ public function etudiant()
 
 ### TP5 : blade 
 
-> 9rayti f click channel
+> created by ***9rayti f click channel***
 > 
 > video : <a href="https://youtu.be/X63WfDdYh84?si=Ac-WBUtGX1HfaL7w">YouTube video</a>
 
