@@ -53,9 +53,8 @@ public function etudiant()
 
 
 
-### TP3
-
-routing : returne view 
+### TP3 : routing
+> created by prof **Ibn Batouta**
 
 ### TP4
 
