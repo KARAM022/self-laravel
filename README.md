@@ -12,9 +12,9 @@ Here are some exercises to learn laravel
     le 1er : returne la vue **page1** lorsque l'url est "(nom de domaine)/page1"<br>
     le 2eme : returne la vue **page2** lorsque l'url est "(nom de domaine)/page2"
 
-
-
 <br><hr><br>
+
+
 
 
 
@@ -36,7 +36,7 @@ Here are some exercises to learn laravel
     lorsque l'url est "(nom de domaine)/hello/(nom)". `$nom` dans la vue hello doit être le même nom dans l'url.
     le 2eme : returne la vue **page2** lorsque l'url est "(nom de domaine)/page2"
 
-
+<br><hr><br>
 
 
 
@@ -78,7 +78,7 @@ Here are some exercises to learn laravel
         Solution 2 : avec `unless`
 
 
-
+<br><hr><br>
 
 
 
@@ -111,7 +111,7 @@ public function etudiant()
 | poste | stagiaire |
 | modules | * developper en frantend <br> * developper en backend <br> * gestion des donnees |
 
-
+<br><hr><br>
 
 
 
