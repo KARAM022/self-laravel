@@ -42,8 +42,8 @@ public function etudiant()
 > 
 > video : <a href="https://youtu.be/X63WfDdYh84?si=Ac-WBUtGX1HfaL7w">YouTube video</a>
 
-1. créer une vue qui contient unr liste déroulante remplie par les nombres de 0 à 9
-1. remplir une deuxieme liste par les nombres de 1 à 1000. proposer deux solutions:<br>
+1. Créer une vue qui contient unr liste déroulante remplie par les nombres de 0 à 9
+1. Remplir une deuxieme liste par les nombres de 1 à 1000. Proposer deux solutions:<br>
     Solution 1 : avec une boucle<br>
     Solution 2 : avec une boucle et une condition
 
@@ -56,8 +56,8 @@ public function etudiant()
 ### TP3 : routing
 > created by prof ***Ibn Batouta***
 
-1. créer 2 vue *page1* et *page2*
-1. definir 2 route correspandante:<br>
+1. Créer 2 vue *page1* et *page2*
+1. Definir 2 route correspandante:<br>
     le 1er : returne la vue **page1** lorsque l'url est "(nom de domaine)/page1"<br>
     le 2eme : returne la vue **page2** lorsque l'url est "(nom de domaine)/page2"
 
@@ -67,6 +67,13 @@ public function etudiant()
 
 
 
-### TP4
+### TP4 : controllers
+> created by prof ***Ibn Batouta***
 
-controler : 2 page return smiya kan3tiwha liha 7na 
+1. Créer un controller 'home'
+2. Définir la méthode 'salam':<br>
+    Returne une vue **salam** contient:
+    ```
+        salam {{$nom}}
+    ```
+    lorsque l'url est "(nom de domaine)/". `$nom` doit être déclaré dans la méthode 'salam'.
