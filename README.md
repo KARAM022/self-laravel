@@ -10,6 +10,11 @@ THis is some exercises to learn laravel
 > 
 > video : <a href="https://youtu.be/9dGmUvg9QQ0?si=RmUvojuobIsqC3R9">YouTube video</a>
 
+1. créer un controller 'ControllerTP1'. Définir la méthode étudiant suivante :
+```
+echo "hi";
+```
+
 
 
 
