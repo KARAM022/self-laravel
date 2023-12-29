@@ -62,17 +62,20 @@ THis is some exercises to learn laravel
     }
     ```
 1. Definir une route correspandante
-1. Créer une vue 'blads' qui permet d'afficher les information comme suit :
+1. Créer une vue 'blads' qui permet d'afficher les information comme suit :<br>
     `
         hello Mr Karam
-    `
+    `<br>
     `
     this is a list of some programming language :
         * php
         * js
         * c
         * python
-    `
+    `<br>
+    Proposer deux solutions:<br>
+        Solution 1 : avec `if`<br>
+        Solution 2 : avec `unless`
 
 
 
